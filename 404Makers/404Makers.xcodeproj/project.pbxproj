@@ -29,6 +29,8 @@
 		4E667F262BF6343500B10577 /* any404.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E667F252BF6343500B10577 /* any404.swift */; };
 		4E667F282BF6346400B10577 /* ImageUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E667F272BF6346400B10577 /* ImageUpload.swift */; };
 		4E667F2A2BF6347300B10577 /* 40404404004.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E667F292BF6347300B10577 /* 40404404004.swift */; };
+		4E667F462BF766E600B10577 /* 404Makers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E667F452BF766E600B10577 /* 404Makers.swift */; };
+		4E667F482BF7670F00B10577 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E667F472BF7670F00B10577 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +57,8 @@
 		4E667F252BF6343500B10577 /* any404.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = any404.swift; sourceTree = "<group>"; };
 		4E667F272BF6346400B10577 /* ImageUpload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUpload.swift; sourceTree = "<group>"; };
 		4E667F292BF6347300B10577 /* 40404404004.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 40404404004.swift; sourceTree = "<group>"; };
+		4E667F452BF766E600B10577 /* 404Makers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 404Makers.swift; sourceTree = "<group>"; };
+		4E667F472BF7670F00B10577 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 		4E182EDD2BF619A8000DF396 /* 404Makers */ = {
 			isa = PBXGroup;
 			children = (
+				4E667F452BF766E600B10577 /* 404Makers.swift */,
+				4E667F472BF7670F00B10577 /* ContentView.swift */,
 				4E667E8B2BF6246B00B10577 /* Model */,
 				4E667EC72BF62A0300B10577 /* ViewModel */,
 				4E667E8E2BF624A100B10577 /* View */,
@@ -356,6 +362,8 @@
 				4E667F1A2BF6332E00B10577 /* MainCrewView.swift in Sources */,
 				4E667EB82BF6288E00B10577 /* MainServicesModel.swift in Sources */,
 				4E667F182BF6331000B10577 /* MainPostView.swift in Sources */,
+				4E667F482BF7670F00B10577 /* ContentView.swift in Sources */,
+				4E667F462BF766E600B10577 /* 404Makers.swift in Sources */,
 				4E667F102BF6327200B10577 /* SignUpMain.swift in Sources */,
 				4E667EB62BF6287400B10577 /* UserProfileModel.swift in Sources */,
 				4E667F242BF6341700B10577 /* MainTitel.swift in Sources */,
