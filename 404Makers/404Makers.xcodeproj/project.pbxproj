@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46110B742BFDF3090072BD4B /* TechSkillsUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46110B732BFDF3090072BD4B /* TechSkillsUI.swift */; };
 		4E182EE32BF619AC000DF396 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E182EE22BF619AC000DF396 /* Assets.xcassets */; };
 		4E182EE62BF619AC000DF396 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E182EE52BF619AC000DF396 /* Preview Assets.xcassets */; };
 		4E667EB62BF6287400B10577 /* UserProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E667EB52BF6287400B10577 /* UserProfileModel.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		46110B732BFDF3090072BD4B /* TechSkillsUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechSkillsUI.swift; sourceTree = "<group>"; };
 		4E182EDB2BF619A8000DF396 /* 404Makers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 404Makers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E182EE22BF619AC000DF396 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E182EE52BF619AC000DF396 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				4E667F212BF633FE00B10577 /* Button.swift */,
+				46110B732BFDF3090072BD4B /* TechSkillsUI.swift */,
 			);
 			name = Components;
 			sourceTree = "<group>";
@@ -350,6 +353,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46110B742BFDF3090072BD4B /* TechSkillsUI.swift in Sources */,
 				4E667F2A2BF6347300B10577 /* 40404404004.swift in Sources */,
 				4E667F202BF633B200B10577 /* NotificationCenterView.swift in Sources */,
 				4E667F122BF6328700B10577 /* LoginMain.swift in Sources */,
