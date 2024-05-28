@@ -11,7 +11,7 @@ import SwiftUI
 struct MakersApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WellcomeView()
         }
     }
 }

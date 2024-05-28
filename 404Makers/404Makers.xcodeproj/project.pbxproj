@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		460432E82C031B72005F7F10 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460432E72C031B72005F7F10 /* UIColor+Extension.swift */; };
+		460432EA2C035E08005F7F10 /* NicknameSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460432E92C035E08005F7F10 /* NicknameSettingsView.swift */; };
+		460432EC2C047832005F7F10 /* TermsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460432EB2C047832005F7F10 /* TermsView.swift */; };
+		460432EE2C05BC56005F7F10 /* WellcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460432ED2C05BC56005F7F10 /* WellcomeView.swift */; };
 		46110B742BFDF3090072BD4B /* TechSkillsUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46110B732BFDF3090072BD4B /* TechSkillsUI.swift */; };
 		4E182EE32BF619AC000DF396 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E182EE22BF619AC000DF396 /* Assets.xcassets */; };
 		4E182EE62BF619AC000DF396 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E182EE52BF619AC000DF396 /* Preview Assets.xcassets */; };
@@ -35,6 +39,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		460432E72C031B72005F7F10 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		460432E92C035E08005F7F10 /* NicknameSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameSettingsView.swift; sourceTree = "<group>"; };
+		460432EB2C047832005F7F10 /* TermsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsView.swift; sourceTree = "<group>"; };
+		460432ED2C05BC56005F7F10 /* WellcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellcomeView.swift; sourceTree = "<group>"; };
 		46110B732BFDF3090072BD4B /* TechSkillsUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechSkillsUI.swift; sourceTree = "<group>"; };
 		4E182EDB2BF619A8000DF396 /* 404Makers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 404Makers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E182EE22BF619AC000DF396 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -180,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				4E667F232BF6341700B10577 /* MainTitel.swift */,
+				460432E72C031B72005F7F10 /* UIColor+Extension.swift */,
 			);
 			name = Extension;
 			sourceTree = "<group>";
@@ -214,6 +223,9 @@
 			isa = PBXGroup;
 			children = (
 				4E667F0F2BF6327200B10577 /* SignUpMain.swift */,
+				460432EB2C047832005F7F10 /* TermsView.swift */,
+				460432E92C035E08005F7F10 /* NicknameSettingsView.swift */,
+				460432ED2C05BC56005F7F10 /* WellcomeView.swift */,
 			);
 			name = SignUp;
 			sourceTree = "<group>";
@@ -308,7 +320,7 @@
 		4E182ED32BF619A8000DF396 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
@@ -367,15 +379,19 @@
 				4E667EB82BF6288E00B10577 /* MainServicesModel.swift in Sources */,
 				4E667F182BF6331000B10577 /* MainPostView.swift in Sources */,
 				4E667F482BF7670F00B10577 /* ContentView.swift in Sources */,
+				460432EA2C035E08005F7F10 /* NicknameSettingsView.swift in Sources */,
 				4E667F462BF766E600B10577 /* 404Makers.swift in Sources */,
+				460432E82C031B72005F7F10 /* UIColor+Extension.swift in Sources */,
 				4E667F102BF6327200B10577 /* SignUpMain.swift in Sources */,
 				4E667EB62BF6287400B10577 /* UserProfileModel.swift in Sources */,
 				4E667F242BF6341700B10577 /* MainTitel.swift in Sources */,
 				4E667F282BF6346400B10577 /* ImageUpload.swift in Sources */,
 				4E667F162BF632E100B10577 /* MainProfileView.swift in Sources */,
+				460432EC2C047832005F7F10 /* TermsView.swift in Sources */,
 				4E667F262BF6343500B10577 /* any404.swift in Sources */,
 				4E667F1E2BF6336F00B10577 /* ChattingListView.swift in Sources */,
 				4E667F1C2BF6335600B10577 /* PostingView.swift in Sources */,
+				460432EE2C05BC56005F7F10 /* WellcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,9 +433,11 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_APP_SANDBOX = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				ENABLE_USER_SELECTED_FILES = "";
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -480,9 +498,11 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_APP_SANDBOX = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				ENABLE_USER_SELECTED_FILES = "";
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -507,22 +527,27 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"404Makers/Preview Content\"";
-				DEVELOPMENT_TEAM = R69A8G3J7T;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.owen.-04Makers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -538,22 +563,27 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"404Makers/Preview Content\"";
-				DEVELOPMENT_TEAM = R69A8G3J7T;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.owen.-04Makers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
