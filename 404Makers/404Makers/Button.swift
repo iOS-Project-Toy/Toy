@@ -7,12 +7,36 @@
 
 import SwiftUI
 
-struct Button: View {
+struct CustomButton: View {
+    var title: String
+    var backgroundColor: Color = .blue
+    var textColor: Color = .white
+    var action: () -> Void
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button(action: action) {
+            Text(title)
+                .fontWeight(.bold)
+                .foregroundColor(textColor)
+                .padding()
+                .frame(maxWidth: .infinity)
+                .background(backgroundColor)
+                .cornerRadius(10)
+        }
     }
 }
+//#Preview {
+//    CustomButton(title: "Click Me", action: {
+//        print("Button was tapped")
+//    })
+//}
 
-#Preview {
-    Button()
+struct CustomButton_Previews: PreviewProvider {
+    static var previews: some View {
+        CustomButton(title: "Click Me", action: {
+            print("Button was tapped")
+        })
+        .previewLayout(.sizeThatFits)
+        .padding()
+    }
 }
