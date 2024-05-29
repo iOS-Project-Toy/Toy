@@ -25,18 +25,18 @@ struct CustomButton: View {
         }
     }
 }
-#Preview {
-    CustomButton(title: "Click Me", action: {
-        print("Button was tapped")
-    })
-}
-
-//struct CustomButton_Previews: PreviewProvider {
-//    static var previews: some View {
-//        CustomButton(title: "Click Me", action: {
-//            print("Button was tapped")
-//        })
-//        .previewLayout(.sizeThatFits)
-//        .padding()
-//    }
+//#Preview {
+//    CustomButton(title: "Click Me", action: {
+//        print("Button was tapped")
+//    })
 //}
+
+struct CustomButton_Previews: PreviewProvider {
+    static var previews: some View {
+        CustomButton(title: "Click Me", action: {
+            print("Button was tapped")
+        })
+        .previewLayout(.sizeThatFits)
+        .padding()
+    }
+}
