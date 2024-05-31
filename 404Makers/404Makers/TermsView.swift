@@ -70,23 +70,11 @@ struct TermsView: View {
                 
                 Spacer()
                 
-                Button(action: {
-                    // 다음으로 액션
-                }) {
-                    Text("다음으로")
-                        .fontWeight(.semibold)
-                        .frame(maxWidth: .infinity)
-                        .padding()
-                        .background(Color(hex: "#55DB82"))
-                        .foregroundColor(.black)
-                        .cornerRadius(17)
+                ActionButton {
+                    // 액션추가
                 }
-                .padding(.horizontal)
-                .padding(.bottom, 30)
             }
-            .padding(.horizontal, 24)
         }
-        //.background(Color(UIColor.systemGray6))
     }
 }
 

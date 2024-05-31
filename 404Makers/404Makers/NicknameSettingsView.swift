@@ -19,11 +19,11 @@ struct NicknameSettingsView: View {
                     // 뒤로 가기 액션
                 }) {
                     Image(systemName: "chevron.left")
-                        .foregroundColor(.black)
+                        .foregroundColor(.gray)
                 }
-                Spacer()
-                Text("닉네임 설정")
-                    .font(.headline)
+//                Spacer()
+//                Text("닉네임 설정")
+//                    .font(.headline)
                 Spacer()
                 Text("1/3")
                     .font(.subheadline)
