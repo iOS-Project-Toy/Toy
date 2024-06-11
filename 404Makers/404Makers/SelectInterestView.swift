@@ -46,8 +46,8 @@ struct SelectInterestView: View {
             
             Spacer()
             
-            ActionButton {
-                // 다음으로 액션
+            ActionButton(title: "dadf", buttonColor: .gray, textColor: .white) {
+                
             }
         }
     }

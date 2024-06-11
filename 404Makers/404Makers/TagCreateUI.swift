@@ -124,7 +124,7 @@ struct FlowLayout: View {
                     .padding(.trailing, 5)
             }
         }
-        .background(Color.gray)
+        .background(Color.black)
         .cornerRadius(7)
     }
 }
