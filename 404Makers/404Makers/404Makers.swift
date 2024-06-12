@@ -23,7 +23,7 @@ struct MakersApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     var body: some Scene {
         WindowGroup {
-            SelectInterestView()
+            TechStackSelectionView()
         }
     }
 }

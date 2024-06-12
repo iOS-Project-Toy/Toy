@@ -33,4 +33,25 @@ extension Color {
             opacity: Double(a) / 255
         )
     }
+    
+    // 추가적인 초기화 방법
+    init(fromHex hex: String) {
+        let hex = hex.trimmingCharacters(in: CharacterSet.alphanumerics.inverted)
+        var int: UInt64 = 0
+        Scanner(string: hex).scanHexInt64(&int)
+        
+        let r, g, b: Double
+        switch hex.count {
+        case 6: // RGB (24-bit)
+            r = Double((int & 0xff0000) >> 16) / 255.0
+            g = Double((int & 0xff00) >> 8) / 255.0
+            b = Double(int & 0xff) / 255.0
+        default:
+            r = 0
+            g = 0
+            b = 0
+        }
+        
+        self.init(red: r, green: g, blue: b)
+    }
 }
